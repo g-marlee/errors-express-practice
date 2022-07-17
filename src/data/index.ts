@@ -1,10 +1,11 @@
 import { nanoid } from 'nanoid';
-import { Users } from '../types';
+import { User } from '../types/index';
 
-export const users: Users[] = [
+export const users: User[] = [
   {
     id: nanoid(5),
     name: 'Jalen',
+    address: "347 Sumner Lane"
   },
   {
     id: nanoid(5),
@@ -18,6 +19,7 @@ export const users: Users[] = [
   },
   {
     id: nanoid(5),
+    name: "Marlee",
     address: '347 Sumner Lane',
   },
 ];
